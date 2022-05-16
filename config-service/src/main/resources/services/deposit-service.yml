@@ -14,9 +14,13 @@ spring:
 
   rabbitmq:
     port: 5672
-    host: rabbitmq
+    host: 46.0.16.18
     username: guest
     password: guest
     listener:
       direct:
         default-requeue-rejected: true
+
+server:
+  port: 9999
+
